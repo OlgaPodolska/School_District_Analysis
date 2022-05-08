@@ -1,61 +1,45 @@
 # School_District_Analysis
+
+## Overview of the school district analysis
+
 School Budget using Python and Anaconda
+The school board has notified Maria and her supervisor that the students_complete.csv file shows evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. Although the school board does not know the full extent of the academic dishonesty, they want to uphold state-testing standards 
 
 to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. Once you’ve replaced the math and reading scores, Maria would like you to repeat the school district analysis that you did in this module and write up a report to describe how these changes affected the overall analysis.
 
 Two technical analysis deliverables and a written report to present your results. You will submit the following:
 * Replace ninth-grade reading and math scores
+
+The reading and math scores for the ninth graders in Thomas High school are replaced with NaNs:
+
+student_data.png
+
+## Results:
+
 * Repeat the school district analysis
 
+ A high-level snapshot of the district's key metrics, presented in a table format
+An overview of the key metrics for each school, presented in a table format
+Tables presenting each of the following metrics:
+* The district summary
+* The school summary
+* The top 5 and bottom 5 performing schools, based on the overall passing rate
+* The average math score for each grade level from each school
+* The average reading score for each grade level from each school
+* The scores by school spending per student, by school size, and by school type
+
+In Steps 1-4, you’ll update the district summary. For this task, you’ll recalculate the total student count by subtracting the number of ninth-grade students in Thomas High School from the total student count, then you'll recalculate the passing math and passing reading percentages, and the overall passing percentage with the recalculated total student count.
+
+District Summary DataFrame 
+total_schools.png
 
 
-* A high-level snapshot of the district's key metrics, presented in a table format
-* An overview of the key metrics for each school, presented in a table format
-* Tables presenting each of the following metrics:
-    * Top 5 and bottom 5 performing schools, based on the overall passing rate
-    * The average math score received by students in each grade level at each school
-    * The average reading score received by students in each grade level at each school
-    * School performance based on the budget per student
-    * School performance based on the school size 
-    * School performance based on the type of school
+In Steps 5-14, you’ll execute the code from this module that creates and formats the School Summary DataFrame, then update the school summary using the 10th-12th graders from Thomas High School
 
-The school district summary will be a high-level snapshot of the district's key metrics:
-* Total number of students
-* Total number of schools
-* Total budget
-* Average math score
-* Average reading score
-* Percentage of students who passed math
-* Percentage of students who passed reading
-* Overall passing percentage
-We'll find this information and visualize the data with a table like the following:
+metrics for Thomas High School:
 
-To get the percentage of students who passed math and reading, we will write code to:
-* Determine the passing grade.
-* Get the number of students who passed math and reading in separate DataFrames.
-* Calculate the number of students who passed math and reading.
-* Calculate the percentage of students who passed math and reading.
-* To get the overall passing percentage, we will write code to:
-* Get the number of students who passed both math and reading in a DataFrame.
-* Calculate the number of students who passed both math and reading.
-* Calculate the percentage of students who passed both math and reading.
+ths.png
 
-This next project requires you to get the following key metrics for each school and place them in a school summary DataFrame. As a reminder, here are the key metrics you're working with: 
-School name
-School type
-Total students
-Total school budget
-Per student budget
-Average math score
-Average reading score
-% passing math
-% passing reading
-% overall passing
-
- # To get the passing percentages, we need to:
- # 1. Determine what is the passing grade.
- # 2. Get the number of students who passed math and reading.
- # 3. Get the students who passed math and passed reading
 
 new DataFrame named per_school_summary_df. The data and columns of the DataFrame will be:
 Type of school in the "School Type" column
@@ -76,3 +60,17 @@ For each spending range, get the following data:
 Average math and reading scores
 The percentage of students passing math and reading
 The overall passing percentage, which is the average of the percentage of students passing math and reading
+
+There is a bulleted list that addresses how each of the seven school district metrics was affected by the changes in the data:
+How is the district summary affected?
+How is the school summary affected?
+How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+How does replacing the ninth-grade scores affect the following:
+Math and reading scores by grade
+Scores by school spending
+Scores by school size
+Scores by school type
+
+## Summary: 
+
+Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
