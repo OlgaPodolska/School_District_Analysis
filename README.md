@@ -14,6 +14,8 @@ The reading and math scores for the ninth graders in Thomas High school are repl
 
 student_data.png
 
+![results.png](/Resources/results.png) 
+
 ## Results:
 
 * Repeat the school district analysis
