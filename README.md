@@ -1,6 +1,13 @@
 # School_District_Analysis
 School Budget using Python and Anaconda
 
+to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. Once you’ve replaced the math and reading scores, Maria would like you to repeat the school district analysis that you did in this module and write up a report to describe how these changes affected the overall analysis.
+
+Two technical analysis deliverables and a written report to present your results. You will submit the following:
+* Replace ninth-grade reading and math scores
+* Repeat the school district analysis
+
+
 
 * A high-level snapshot of the district's key metrics, presented in a table format
 * An overview of the key metrics for each school, presented in a table format
