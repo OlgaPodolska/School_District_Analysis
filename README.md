@@ -60,3 +60,12 @@ Average reading score for each school in the "Average Reading Score" column
 Percentage of students passing math for each school in the "% Passing Math" column
 Percentage of students passing reading for each school in the "% Passing Reading" column
 Overall passing percentage for each school in the "% Overall Passing" column
+
+how does school spending per student affect the school's average scores and passing percentages?  
+
+To create this DataFrame, we need to do the following:
+Group the schools into four bins, or ranges, based on the budget per student.
+For each spending range, get the following data:
+Average math and reading scores
+The percentage of students passing math and reading
+The overall passing percentage, which is the average of the percentage of students passing math and reading
